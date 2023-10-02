@@ -1,0 +1,84 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Style the main header */
+.main-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #f88102fc;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title horizontally */
+}
+
+/* Style the navigation title */
+.main-header h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Style the main content area */
+main {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 2rem;
+    text-align: center; /* Center the form and link */
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Style form inputs and button */
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #f88102fc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d16600;
+}
+
+/* Style the login link */
+a {
+    text-decoration: none;
+    color: #6200ff;
+}
+
+/* Center the link horizontally */
+a {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    .main-header {
+        padding: 0.5rem;
+    }
+}
